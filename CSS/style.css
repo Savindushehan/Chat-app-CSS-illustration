@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bai+Jamjuree&family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Cormorant+SC:wght@300&family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Ibarra+Real+Nova:ital,wght@1,600&family=Itim&family=League+Spartan:wght@700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Roboto:wght@300;400&family=Rubik&family=Unbounded:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:hsl(270, 20%, 96%) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.background1{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.background1 .side1{
+    width: 60%;
+    height: 90%;
+    background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+.background1 .side2{
+    position: absolute;
+    margin-top: 4%;
+    width: 20%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-left: 20%;
+}
+.background1 .side2 .background{
+    width: 90%;
+    height: 95%;
+    background-color:hsl(270, 20%, 96%) ;
+    border-radius: 1.5rem;
+}
+.side2 .row1{
+    height: 15%;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.side2 .row1 .rectangle{
+    width: 50%;
+    height: 1.5rem;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.side2 .details{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side2 .details img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.side2 .person{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.side2 .person h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.side2 .person h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+.row2 .line1{
+    width: 60%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    background-color:hsl(0, 0%, 100%);
+    color:  hsl(276, 55%, 52%);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.row2 .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    text-align: end;
+}
+.row2 .line4{
+    width: 60%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.row2 .line3 img{
+    width: 3rem;
+    height: 3rem;
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+}
+.row2 .line7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    margin-bottom: 0.5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.line7 h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+}
+.line7 h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.line7 .circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 1rem;
+}
+.row3{
+    width: 80%;
+    height: 2rem;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.row3 h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    color:hsl(285, 4%, 82%);
+    padding-top: 0.5rem;
+}
+.background2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+}
+.background2 h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0;
+    color:hsl(271, 36%, 24%) ;
+}
+.background2 p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color:  hsl(270, 7%, 64%);
+   
+}
+
+@media  only screen and (max-width:1439px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .background1{
+        width: 20rem;
+        height: 65%;
+    }
+    .background2{
+        width: 20rem;
+        height: 30%;
+    }
+    .background1 .side1{
+        width: 50%;
+        border-bottom-left-radius: 0;
+    }
+    .background1 .side2{
+        width: 60%;
+        height: 60%;
+        margin-top: 10%;
+    }
+    .about{
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
+    }
+    .background2 h1{
+        font-size: 2rem;
+    }
+    .background2 p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+    .row2 .line1{
+        font-size: 0.6rem;
+    }
+    .row2 .line4{
+        font-size: 0.6rem;
+    }
+    .row2 .line3 img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .line7 h2{
+        font-size: 0.6rem;
+    }
+    .line7 h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+    }
+    .side2 .row1{
+        height: 12%;
+    }
+    .side2 .person h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.side2 .person h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.6rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+}
+
