@@ -39,6 +39,7 @@ body{
     height: 95%;
     background-color:hsl(270, 20%, 96%) ;
     border-radius: 1.5rem;
+    margin-bottom: 0.3rem;
 }
 .side2 .row1{
     margin-top: 0.5rem;
