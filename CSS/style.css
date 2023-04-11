@@ -26,7 +26,6 @@ body{
     position: absolute;
     margin-top: 4%;
     width: 20%;
-    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,6 +201,7 @@ body{
     .container{
         width: 22rem;
         display: flex;
+        height: 110vh;
         flex-direction: column;
     }
     .background1{
@@ -209,6 +209,7 @@ body{
         height: 65%;
     }
     .background2{
+        margin-top: 0;
         width: 20rem;
         height: 30%;
     }
@@ -217,16 +218,18 @@ body{
         border-bottom-left-radius: 0;
     }
     .background1 .side2{
-        width: 60%;
-        height: 60%;
-        margin-top: 10%;
+        width: 16rem;
+        margin-top: 2rem;
+        margin-left: 6rem;
     }
     .about{
+        margin-top: 0;
         justify-content: center;
         align-items: center;
         width: 18rem;
     }
     .background2 h1{
+        margin-top: 0;
         font-size: 2rem;
     }
     .background2 p{
@@ -253,7 +256,7 @@ body{
     margin-left: 0.8rem;
     }
     .side2 .row1{
-        height: 12%;
+        height: 15%;
     }
     .side2 .person h2{
     font-family: 'Rubik', sans-serif;
@@ -268,6 +271,9 @@ body{
     color: white;
     margin-top: 0.5rem;
     margin-bottom: 0;
+}
+.side2 .row1 .rectangle{
+    height: 1rem;
 }
 }
 
