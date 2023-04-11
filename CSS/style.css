@@ -225,7 +225,7 @@ body{
         margin-left: 6rem;
     }
     .about{
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         justify-content: center;
         align-items: center;
         width: 18rem;
@@ -241,13 +241,19 @@ body{
     }
     .row2 .line1{
         font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+        margin-top: 0;
     }
     .row2 .line4{
         font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+        margin-top: 0;
     }
     .row2 .line3 img{
         width: 1.5rem;
         height: 1.5rem;
+        margin-bottom: 0.3rem;
+        margin-top: 0;
     }
     .line7{
         padding: 0;
