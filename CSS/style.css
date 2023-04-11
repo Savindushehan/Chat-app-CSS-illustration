@@ -41,6 +41,7 @@ body{
     border-radius: 1.5rem;
 }
 .side2 .row1{
+    margin-top: 0.5rem;
     height: 15%;
     background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
     border-top-right-radius: 1rem;
@@ -223,7 +224,7 @@ body{
         margin-left: 6rem;
     }
     .about{
-        margin-top: 0;
+        margin-top: 1rem;
         justify-content: center;
         align-items: center;
         width: 18rem;
@@ -246,6 +247,9 @@ body{
     .row2 .line3 img{
         width: 1.5rem;
         height: 1.5rem;
+    }
+    .line7{
+        padding: 0;
     }
     .line7 h2{
         font-size: 0.6rem;
