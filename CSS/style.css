@@ -128,7 +128,7 @@ body{
 .row2 .line7{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     width: 70%;
     background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
@@ -144,14 +144,14 @@ body{
 .line7 h3{
     font-family: 'Rubik', sans-serif;
     font-size: 0.9rem;
-    margin-left: 1rem;
+    margin-right: 0.3rem;
 }
 .line7 .circle{
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
     border: 2px solid white;
-    margin-right: 1rem;
+    margin-left: 0.2rem;
 }
 .row3{
     width: 80%;
